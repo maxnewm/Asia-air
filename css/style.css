@@ -79,8 +79,7 @@
 
 .tours{
   margin-bottom: 227px;
-  position: relative;
-  display: inline-block;
+  position: relative;  
 }
 
 .tours__title{
@@ -95,24 +94,41 @@
 }
 
 .tours__item{
-min-height: 305px;
-
+ min-height: 305px;
+ background-color:#fff;
+ display: inline-block;
+ border-radius: 5px;
+ margin-left: 15px;
 }
 
-.fon{
-  width: 362px;
-  height: 305px;
-  background-color:#fff  
-}
-
-.fon{
-  min-height: 305px;
-}
 
 .tours__img{
   min-height: 144px;
 }
 
+.tours__about{
+  font-size: 14px;
+  
+}
+
+.tours__name{
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 33px;
+  margin-left: 22px;
+  
+}
+
+.tours__feature-icon{
+  width: 26px;
+  height: 26px;
+  margin-left:   28px;
+  margin-top: 21px;
+}
+
+.tours__feature{
+  display: inline-block;
+}
 
 
 
@@ -141,7 +157,7 @@ ul li {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2,  h4, h5, h6{
   margin: 0;
   font-weight: normal;
 }
