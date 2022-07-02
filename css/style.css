@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 .head{
-  height: 123px;
-  padding-top: 26px;
-  position: relative;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 29px;
   
 }
 
-.head__logo{
-  display: inline-block; 
-  width: 85px;
-  height: 36px;
-  position: absolute;
-  padding-top: 7px;
-  
-} 
+.headleft{
+  display: flex;
+  align-items: center;
+}
                  
 .nav__item{
   font-size: 14px;
@@ -24,64 +21,52 @@
   padding-left: 50px;    
 }
 
-.head__nav{
-  text-align: left;
-  padding-left: 117px;
-  position: relative;
-  top: 17px;
-}
 
-.head__adress{
-  display: block;
-  text-align: end;
-  position: relative;
-  top: -19px;
-  
-}
-
-.headadress__phone{
+.adress__phone{
  font-size: 26px;
- padding-left: 947px;
-}
+ }
 
-.headadress__shedule{
-  font-size: 13px;   
-  text-align: end;
+.adress__shedule{
+  display: flex;
+  font-size: 13px; 
   color: #fff;
-  position: relative;
-  top: -7px;
+  justify-content: flex-end;  
 }
 
 .hero{
-  width: 511px;
-  margin-bottom: 246px;
+  height: 333px;
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-between;
+  
 }
 
 .hero__title{
   font-size: 72px;
   font-weight: bold;
   color:#fff;
-  line-height: 98px;
-  margin-bottom: 99px;
-  position: relative;
-  top: 77px;
-  
+    
 }
 
 .hero__name{
   font-size: 18px;
-  color: #fff;
-  position: relative;
-  top: 5px;
-  margin-bottom: 51px;
-  
+  color: #fff; 
+}  
+
+.hero__block{
+ display: flex;
+ flex-direction: column;
+ 
 }
+
 
 .tours{
   margin-bottom: 227px;
   margin-left: 23;
   position: relative;  
 }
+
+
 
 .tours__title{
   font-weight: bold;
@@ -95,10 +80,13 @@
   display: inline-block;
 }
 
+.tours__list{
+  display: flex;
+}
+
 .tours__item{
  min-height: 305px;
- background-color:#fff;
- display: inline-block;
+ background-color:#fff; 
  border-radius: 5px;
  margin-left: 12px;
  padding-bottom: 68px;
@@ -147,6 +135,10 @@
   margin-bottom: 152px;
 }
 
+.news__list{
+  display: flex;
+}
+
 .news__item{
   width: 557px;
   display: inline-block;
@@ -177,7 +169,9 @@
 .news__date{
   font-size: 14px;
   margin-top:  23px; 
+  padding-bottom: 23px;
   text-transform: lowercase;
+  display: block;
 }
 
 .news__name{
@@ -227,50 +221,57 @@
 }
 
 .paginator__item--activ .paginator__link{
- background-color:#fff 
+ background-color:#fff  
+ 
 }
 
-
-.footer{  
-  height: 320px;
-  position: relative;
-  margin-top: 23px;
-  display: inline-block;
-   
+.pagination--theme-light{
+  color: #000000;
 }
 
-.footer__logo{
- padding-top: 23px;
+.pagination--theme-light .paginator__item--activ .paginator__link{
+  color: #fff;
+  background: #F5170E;
 }
 
-.footer__adress{
-  display: block;
-  text-align: end;
-  position: relative;
-  top: -52px;
+.pagination--theme-light .paginator__link:hover{
+  color: #fff;
+  background: #F5170E;
+}
+
+.footer{    
+  display: flex;   
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px 40px;
+}
+
+.adress{
+  margin-left: 74px;
 }
 
 .adress__phone{
   font-size: 26px;
- padding-left: 947px;
-}
+ }
 
 .adress__text{
   color: #9A9A9A;
   font-size: 11px;
 }
 
-.footer__nav{
-  text-align: left;
-  padding-left: 118px;
-  position: relative;
-  top: -35px;
+.nav{   
+  margin-left: 79px; 
+  
+}
+.footerleft{
+  display: flex;
+  align-items: center;
 }
 
-
-
-
-
+.footerright{
+  display: flex;
+  align-items: center;  
+}
   
 body{
     font-family:'Open Sans', sans-serif;
@@ -317,10 +318,7 @@ a{
 
 
 .social__list{
-  font-size: 0;
-  position: relative;
-  margin-left: 671px; 
-  margin-top: -58px;
+  display: flex;
   }
 
 .social__item{
@@ -415,6 +413,7 @@ a{
 
 .about{
   margin-bottom: 100px;
+  display: flex;
 }
 
 .about__title{
@@ -452,7 +451,7 @@ margin-bottom: 37px;
 }
 
 .button--transparent{
-  margin-left: 62px;
+  margin-left: 7px;
 }
 
 .button:hover{
