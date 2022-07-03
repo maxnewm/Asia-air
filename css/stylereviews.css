@@ -3,3 +3,81 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  font-family:'Open Sans', sans-serif;
+}
+
+u {
+padding: 0cm;
+margin: 0cm;
+}
+
+ul li {
+list-style: none;
+}
+
+h1, h2,  h4, h5, h6{
+margin: 0;
+font-weight: normal;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+a{
+text-decoration: none;
+color: #fff;
+}
+
+.container{
+max-width: 1140px;
+margin: 0 auto;
+}
+
+
+
+
+

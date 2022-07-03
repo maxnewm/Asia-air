@@ -49,6 +49,7 @@
 }
 
 .hero__name{
+  padding-bottom: 23px;
   font-size: 18px;
   color: #fff; 
 }  
@@ -239,11 +240,17 @@
   background: #F5170E;
 }
 
-.footer{    
+.footer{ 
+  background: #001821;   
   display: flex;   
   justify-content: space-between;
   align-items: center;
   padding: 30px 0px 40px;
+}
+
+.footer__container{
+  max-width: 1168px;
+  margin: 0 auto;
 }
 
 .adress{

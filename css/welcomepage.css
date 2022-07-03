@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.html, body{
+  height: 100%;
+  font-family:'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  
+}
+
+.bgimg{
+  height: 100%;
+  background: url('../img/bg.png');
+  background-repeat: no-repeat;  
+  background-size: 100%;  
+}
+
+.mainlg{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 279px;
+  height: 119px;
+  padding-left: 35px;
+}
+
+.desc__main{
+  padding-bottom: 34px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.block{
+  background: url('../img/shades.png');
+  background-repeat:no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 591px;
+  height: 248px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+
+.button{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color:#fff;
+  border-radius: 35px;
+  background: #F5170E; 
+  transition: .5s;
+  margin-top: 5px;
+  text-decoration: none;
+  
+}
+
+.button--transparent_wel{
+  padding: 18px 58px;
+  }
+
+.button:hover{
+  background-color: #DA0100;
+}
