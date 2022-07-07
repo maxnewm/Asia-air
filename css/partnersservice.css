@@ -1,4 +1,5 @@
 .inner-section{
+  padding: 88px 0 117px 0;
   background: #F4F5F5;
   color: #1A1B1E;
 }
@@ -27,4 +28,12 @@
   height: 100px;
   align-items: center;
   justify-content: center;
+}
+
+img{
+  max-width: 100%;
+}
+
+.footer-container{
+  padding: 45px 0 45px 0;
 }

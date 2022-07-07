@@ -40,7 +40,11 @@
 
 .service__desc{
   line-height: 27px;
-  margin-bottom: 25px;
+  margin-bottom: 25px;  
+}
+
+.color__desc{
+  color: #000000;
 }
 
 .pagination{
@@ -53,7 +57,11 @@
   vertical-align: middle;  
 }
 
-.paginator__display{  
+.paginator__link{
+  color: #000000;
+}
+
+.service__option{
   color: #000000;
 }
 
@@ -88,7 +96,7 @@
 }
 
 .pagination--theme-light .paginator__link:hover{
-  color: #fff;
+  color: #ffffff;
   background: #F5170E;
 }
 

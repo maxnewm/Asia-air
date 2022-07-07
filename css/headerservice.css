@@ -2,7 +2,7 @@
   min-height: 412px;  
   background: url('../img/headline\ 1.png') top center;
   background-repeat: no-repeat;  
-  background-size: contain;
+  background-size: cover;
   display: flex;
   flex-direction: column;
 }
@@ -94,8 +94,10 @@
 }
 
 body{
+  margin: 0;
   font-family:'Open Sans', sans-serif;
 }
+
 
 u {
 padding: 0cm;
