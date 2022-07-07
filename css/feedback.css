@@ -10,26 +10,17 @@
 
 }
 
-.separator__container{
-  background-image:url('../img/couple.png');
-  background-repeat: no-repeat;
-}
 
 .separator__title{
   font-weight: 700;
+  font-size: 48px;
+  padding-top: 90px;
 }
 
 .separator__content{
-  
-  background-size:contain;
-  background-repeat: no-repeat;
-  height: 363px;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 65px;
-  color: #FFFFFF;
-  max-width: 594px;
-  padding-top: 105px;
+  display: flex;    
+  color: #fff;
+  justify-content: space-between;
 }
 
 
@@ -244,7 +235,7 @@
 }
   
 .feedback__title {
-  font-size: 30px;
+  font-size: 48px;
   font-weight: bold;
   color: #202020;
   margin-bottom: 13px;
