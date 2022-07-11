@@ -4,8 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 29px;
-  
+  padding-top: 29px;  
 }
 
 .headleft{
@@ -21,10 +20,13 @@
   padding-left: 50px;    
 }
 
+.adress{
+  margin-left: 74px;
+}
 
 .adress__phone{
- font-size: 26px;
- }
+  font-size: 26px;
+}
 
 .adress__shedule{
   display: flex;
@@ -32,6 +34,50 @@
   color: #fff;
   justify-content: flex-end;  
 }
+
+.dropdown{
+  position: relative;
+}
+.dropdown:hover .dropdown__menu{
+  right: 0;
+  opacity: 1;
+}
+
+.dropdown__menu{
+  position: absolute;
+  background: #EDEDED;
+  border-radius: 3px;
+  padding-left: 19px;
+  padding-top: 22px;
+  padding-right: 19px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  border: 5px;
+  opacity: 0;
+  transition: opacity .4s;  
+  top: 100%;
+  right: -9999px;
+  white-space: nowrap;
+
+}
+
+.dropdown__menu::before{
+  content: "";
+  display: block;
+  height: 30px;
+  left: 0;
+  right: 0;
+  top: -29px;
+  position: absolute;
+  border: 16px solid transparent;
+  width: 0px;
+  height: 0px;
+  border-bottom-color:   #EDEDED;
+  margin-left: 100px;
+}
+
+
+
 
 .hero{
   height: 333px;
@@ -267,20 +313,7 @@
   margin: 0 auto;
 }
 
-.adress{
-  margin-left: 74px;
-}
 
-.adress__phone{
-  font-size: 26px;
- }
-
-.adress__text{
-  display: flex;
-  justify-content: flex-end;
-  color: #9A9A9A;
-  font-size: 11px;
-}
 
 .nav{   
   margin-left: 79px; 
@@ -302,9 +335,16 @@
   display: flex;
   align-items: center;  
 }
+
+.adress__text{
+  display: flex;
+  justify-content: flex-end;
+  color: #9A9A9A;
+  font-size: 11px;
+}
   
 body{
-    font-family:'Open Sans', sans-serif;
+  font-family:'Open Sans', sans-serif;
 }
 
 u {
@@ -381,8 +421,7 @@ a{
   display: block;
   width: 100%;
   height: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-repeat: no-repeat;  
   background-position: center;
   position: absolute;
   top: 0;
@@ -393,35 +432,37 @@ a{
 }
 
 .social__link--telegram::after{
-    background-image: url('../logo/t.png');
+  width: 36px; height: 36px;
+  background: url('css_sprites.png') -122px -66px;  
 }
 
 .social__link--telegram::before{
-    background-image: url('../logo/t-hover.png');
+  width: 36px; height: 36px;
+  background: url('css_sprites.png') -122px -10px;
 }
 
 .social__link--vk::after{
-  background-image: url('../logo/vk.png');
+  
 }
 
 .social__link--vk::before{
-  background-image: url('../logo/vk-hover.png');
+  
 }
 
 .social__link--fb::after{
-  background-image: url('../logo/f2.png');
+  
 }
 
 .social__link--fb::before{
-  background-image: url('../logo/f2-hover.png');
+  
 }
 
 .social__link--in::after{
-  background-image: url('../logo/in.png');
+  
 }
 
 .social__link--in::before{
-  background-image: url('../logo/in-hover.png');
+  
 }
 
 .about{
@@ -443,6 +484,15 @@ a{
   margin-top: 140px;
 }
 
+.about__container::before{
+  content: '';
+  display: inline-block;
+  width: 490px;
+  height: 505px;
+  background-image: url('../img/gates.png');
+  vertical-align: top;
+}
+
 .about{
   margin-bottom: 100px;
   display: flex;
@@ -459,14 +509,7 @@ margin-bottom: 37px;
   color: #060606;
 }
 
-.about__container::before{
-  content: '';
-  display: inline-block;
-  width: 490px;
-  height: 505px;
-  background-image: url('../img/gates.png');
-  vertical-align: top;
-}
+
 
 .button{
   font-weight: 700;

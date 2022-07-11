@@ -29,6 +29,7 @@
 }
 
 .form__btn{
+  border: none;
   background-color: #F5170E;
   color: #fff;
   align-items: center;
@@ -235,10 +236,14 @@
 }
   
 .feedback__title {
-  font-size: 48px;
+  font-size: 30px;
   font-weight: bold;
   color: #202020;
   margin-bottom: 13px;
+}
+
+.title--size--48{
+  font-size: 48px;
 }
   
 .feedback__content-text {
@@ -265,6 +270,10 @@
 .pagination{
   text-align: center;
   
+}
+
+.paginator__display{
+  margin-right: 25px;
 }
 
 .paginator__display,.paginator__lists{
